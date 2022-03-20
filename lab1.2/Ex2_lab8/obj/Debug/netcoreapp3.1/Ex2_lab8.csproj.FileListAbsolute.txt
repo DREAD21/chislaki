@@ -1,0 +1,27 @@
+D:\гараж\учеба\2 курс\комп матеша\лаба8\Ex2_lab8\Ex2_lab8\bin\Debug\netcoreapp3.1\Ex2_lab8.exe
+D:\гараж\учеба\2 курс\комп матеша\лаба8\Ex2_lab8\Ex2_lab8\bin\Debug\netcoreapp3.1\Ex2_lab8.deps.json
+D:\гараж\учеба\2 курс\комп матеша\лаба8\Ex2_lab8\Ex2_lab8\bin\Debug\netcoreapp3.1\Ex2_lab8.runtimeconfig.json
+D:\гараж\учеба\2 курс\комп матеша\лаба8\Ex2_lab8\Ex2_lab8\bin\Debug\netcoreapp3.1\Ex2_lab8.runtimeconfig.dev.json
+D:\гараж\учеба\2 курс\комп матеша\лаба8\Ex2_lab8\Ex2_lab8\bin\Debug\netcoreapp3.1\Ex2_lab8.dll
+D:\гараж\учеба\2 курс\комп матеша\лаба8\Ex2_lab8\Ex2_lab8\bin\Debug\netcoreapp3.1\Ex2_lab8.pdb
+D:\гараж\учеба\2 курс\комп матеша\лаба8\Ex2_lab8\Ex2_lab8\obj\Debug\netcoreapp3.1\Ex2_lab8.csprojAssemblyReference.cache
+D:\гараж\учеба\2 курс\комп матеша\лаба8\Ex2_lab8\Ex2_lab8\obj\Debug\netcoreapp3.1\Ex2_lab8.AssemblyInfoInputs.cache
+D:\гараж\учеба\2 курс\комп матеша\лаба8\Ex2_lab8\Ex2_lab8\obj\Debug\netcoreapp3.1\Ex2_lab8.AssemblyInfo.cs
+D:\гараж\учеба\2 курс\комп матеша\лаба8\Ex2_lab8\Ex2_lab8\obj\Debug\netcoreapp3.1\Ex2_lab8.csproj.CoreCompileInputs.cache
+D:\гараж\учеба\2 курс\комп матеша\лаба8\Ex2_lab8\Ex2_lab8\obj\Debug\netcoreapp3.1\Ex2_lab8.dll
+D:\гараж\учеба\2 курс\комп матеша\лаба8\Ex2_lab8\Ex2_lab8\obj\Debug\netcoreapp3.1\Ex2_lab8.pdb
+D:\гараж\учеба\2 курс\комп матеша\лаба8\Ex2_lab8\Ex2_lab8\obj\Debug\netcoreapp3.1\Ex2_lab8.genruntimeconfig.cache
+C:\Users\Никита\Desktop\лаба8\Ex2_lab8\Ex2_lab8\bin\Debug\netcoreapp3.1\Ex2_lab8.exe
+C:\Users\Никита\Desktop\лаба8\Ex2_lab8\Ex2_lab8\bin\Debug\netcoreapp3.1\Ex2_lab8.deps.json
+C:\Users\Никита\Desktop\лаба8\Ex2_lab8\Ex2_lab8\bin\Debug\netcoreapp3.1\Ex2_lab8.runtimeconfig.json
+C:\Users\Никита\Desktop\лаба8\Ex2_lab8\Ex2_lab8\bin\Debug\netcoreapp3.1\Ex2_lab8.runtimeconfig.dev.json
+C:\Users\Никита\Desktop\лаба8\Ex2_lab8\Ex2_lab8\bin\Debug\netcoreapp3.1\Ex2_lab8.dll
+C:\Users\Никита\Desktop\лаба8\Ex2_lab8\Ex2_lab8\bin\Debug\netcoreapp3.1\Ex2_lab8.pdb
+C:\Users\Никита\Desktop\лаба8\Ex2_lab8\Ex2_lab8\obj\Debug\netcoreapp3.1\Ex2_lab8.csproj.AssemblyReference.cache
+C:\Users\Никита\Desktop\лаба8\Ex2_lab8\Ex2_lab8\obj\Debug\netcoreapp3.1\Ex2_lab8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Никита\Desktop\лаба8\Ex2_lab8\Ex2_lab8\obj\Debug\netcoreapp3.1\Ex2_lab8.AssemblyInfoInputs.cache
+C:\Users\Никита\Desktop\лаба8\Ex2_lab8\Ex2_lab8\obj\Debug\netcoreapp3.1\Ex2_lab8.AssemblyInfo.cs
+C:\Users\Никита\Desktop\лаба8\Ex2_lab8\Ex2_lab8\obj\Debug\netcoreapp3.1\Ex2_lab8.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\лаба8\Ex2_lab8\Ex2_lab8\obj\Debug\netcoreapp3.1\Ex2_lab8.dll
+C:\Users\Никита\Desktop\лаба8\Ex2_lab8\Ex2_lab8\obj\Debug\netcoreapp3.1\Ex2_lab8.pdb
+C:\Users\Никита\Desktop\лаба8\Ex2_lab8\Ex2_lab8\obj\Debug\netcoreapp3.1\Ex2_lab8.genruntimeconfig.cache
