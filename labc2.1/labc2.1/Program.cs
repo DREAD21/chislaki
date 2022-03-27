@@ -25,13 +25,12 @@ namespace labc2._1
         public static void Newton(out double answer)
         {
             x0 = 0.35;
-            x1 = 0;
-            while (Math.Abs(x1 - x0) > e || x1<0)
+            x1 = 0.35;
+            do
             {
-                if (x1 != 0)
-                    x0 = x1;
+                x0 = x1;
                 x1 = x0 - function(x0) / derivative(x1);
-            }
+            } while (Math.Abs(x1 - x0) > e || x1 < 0);
             answer = x1;
         }
         public static double function(double arg)
