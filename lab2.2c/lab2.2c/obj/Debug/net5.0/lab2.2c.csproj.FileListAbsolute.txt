@@ -1,0 +1,16 @@
+C:\Users\Никита\Desktop\числаки\lab2.2c\lab2.2c\bin\Debug\net5.0\lab2.2c.exe
+C:\Users\Никита\Desktop\числаки\lab2.2c\lab2.2c\bin\Debug\net5.0\lab2.2c.deps.json
+C:\Users\Никита\Desktop\числаки\lab2.2c\lab2.2c\bin\Debug\net5.0\lab2.2c.runtimeconfig.json
+C:\Users\Никита\Desktop\числаки\lab2.2c\lab2.2c\bin\Debug\net5.0\lab2.2c.runtimeconfig.dev.json
+C:\Users\Никита\Desktop\числаки\lab2.2c\lab2.2c\bin\Debug\net5.0\lab2.2c.dll
+C:\Users\Никита\Desktop\числаки\lab2.2c\lab2.2c\bin\Debug\net5.0\ref\lab2.2c.dll
+C:\Users\Никита\Desktop\числаки\lab2.2c\lab2.2c\bin\Debug\net5.0\lab2.2c.pdb
+C:\Users\Никита\Desktop\числаки\lab2.2c\lab2.2c\obj\Debug\net5.0\lab2.2c.csproj.AssemblyReference.cache
+C:\Users\Никита\Desktop\числаки\lab2.2c\lab2.2c\obj\Debug\net5.0\lab2.2c.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Никита\Desktop\числаки\lab2.2c\lab2.2c\obj\Debug\net5.0\lab2.2c.AssemblyInfoInputs.cache
+C:\Users\Никита\Desktop\числаки\lab2.2c\lab2.2c\obj\Debug\net5.0\lab2.2c.AssemblyInfo.cs
+C:\Users\Никита\Desktop\числаки\lab2.2c\lab2.2c\obj\Debug\net5.0\lab2.2c.csproj.CoreCompileInputs.cache
+C:\Users\Никита\Desktop\числаки\lab2.2c\lab2.2c\obj\Debug\net5.0\lab2.2c.dll
+C:\Users\Никита\Desktop\числаки\lab2.2c\lab2.2c\obj\Debug\net5.0\ref\lab2.2c.dll
+C:\Users\Никита\Desktop\числаки\lab2.2c\lab2.2c\obj\Debug\net5.0\lab2.2c.pdb
+C:\Users\Никита\Desktop\числаки\lab2.2c\lab2.2c\obj\Debug\net5.0\lab2.2c.genruntimeconfig.cache
