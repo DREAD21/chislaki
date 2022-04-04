@@ -110,7 +110,7 @@ if __name__ == '__main__':
     for i in range(data.shape[0]):
         for j in range(data.shape[1] - 1):
             a[i][j] = data[i, j]
-    print('ЛР №1. 303Б Таратунин. Вариант 16')
+
     print("ВХОДНЫЕ ДАННЫЕ")
     print(data)
     print('Решение по методу простых итераций:')
