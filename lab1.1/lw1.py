@@ -84,7 +84,23 @@ def Reverse(M, N):
         rev = ChangeCol(rev, s1, i)
     return rev
 
+def watch_for_reverse(a1, r1):
+    a = np.squeeze(np.asarray(a1))
+    r = np.squeeze(np.asarray(r1))
+    rows_A = len(a)
+    cols_A = len(a[0])
+    rows_B = len(r)
+    cols_B = len(r)
+    C = [[0 for row in range(cols_B)] for col in range(rows_A)]
+    for i in range(rows_A):
+        for j in range(cols_B):
+            for k in range(cols_A):
+                C[i][j] += a[i][k] * r[k][j]
+    return np.asarray(C)
 
+def ret(a1,r1):
+    return np.dot(a1,r1)
+    
 if __name__ == '__main__':
     file = open("lw1_input.txt", "r")
     data = np.genfromtxt('lw1_input.TXT', delimiter=',')
@@ -101,17 +117,26 @@ if __name__ == '__main__':
     print("ВХОДНЫЕ ДАННЫЕ")
     print(data)
     print('\n')
-    #print(a)
-    #print(b)
+    print("Матрица")
+    print(a)
+    print('\n')
+    print("Столбец ")
+    print(b)
+    print('\n')
     LU = decompose_to_LU(a)
 
     L = get_L(LU)
     U = get_U(LU)
-
+    r = Reverse(L,U)
     okay = solve_LU(LU, b)
+    print("Решение Слау")
+    print(okay)
     print("ОПРЕДЕЛИТЕЛЬ СНИЗУ")
     print(Det(U))
     print('\n')
     print("ОБРАТНАЯ МАТРИЦА СНИЗУ")
     print(Reverse(L, U))
-    np.savetxt('example_1.txt', okay)
+    print('\n')
+    print(watch_for_reverse(a,r))
+    print('\n')
+    print(ret(a,okay))
