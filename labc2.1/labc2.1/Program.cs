@@ -10,8 +10,8 @@ namespace labc2._1
         public static void Iterations(out double answer)
         {
             q = get_q();
-            x0 = 0.35;
-            x1 = 0.35;
+            x0 = 0.55;
+            x1 = 0.55;
             do
             {
                 x0 = x1;
@@ -23,8 +23,8 @@ namespace labc2._1
         }
         public static void Newton(out double answer)
         {
-            x0 = 0.35;
-            x1 = 0.35;
+            x0 = 0.7;
+            x1 = 0.7;
             do
             {
                 x0 = x1;
@@ -46,7 +46,7 @@ namespace labc2._1
         }
         public static double get_q()
         {
-            return Math.Max(Math.Abs(function_iter(0)), Math.Abs(function_iter(0.7)));
+            return Math.Max(Math.Abs(function_iter(0.4)), Math.Abs(function_iter(0.7)));
         }
     }
     class Program
