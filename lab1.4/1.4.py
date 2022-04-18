@@ -1,5 +1,6 @@
 import sys
 from math import pi, atan, cos, sin, sqrt
+import numpy as np
 
 epsilon = 0.01
 
@@ -75,6 +76,33 @@ def spin_method(A):
 
     return eigenvalues, eigenvectors
 
+    
+def watch_for(matrix, eigenvalues, eigenvectors):
+    eigenvalues = np.squeeze(np.asarray(eigenvalues))
+    eigenvectors = np.squeeze(np.asarray(eigenvectors))
+    temp1 = eigenvectors[:,0]
+    temp2 = eigenvectors[:,1]
+    temp3 = eigenvectors[:,2]
+    A = np.dot(matrix, temp1)
+    print("1)")
+    
+    print("A * h0 = ", A)
+    B = eigenvalues[:1]*temp1
+    print("l * h0 = ", B)
+
+    print("2)")
+    
+    A = np.dot(matrix, temp2)
+    print("A * h0 = ", A)
+    B = eigenvalues[1:2]*temp2
+    print("l * h0 = ", B)
+
+    print("3)")
+          
+    A = np.dot(matrix, temp3)
+    print("A * h0 = ", A)
+    B = eigenvalues[2:3]*temp3
+    print("l * h0 = ", B)
 
 if __name__ == "__main__":
 
@@ -94,3 +122,5 @@ if __name__ == "__main__":
         for j in range(len(eigenvectors)):
             print("{0:.3f}".format(eigenvectors[j][i]), end=" ")
         print()
+
+    watch_for(matrix, eigenvalues, eigenvectors)  
