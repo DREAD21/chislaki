@@ -1,4 +1,43 @@
-i][j + 1]) /
+import math
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+def f(x):
+    return x**0.5
+
+
+def process(i, x):
+    n = len(x)
+    r = [1.0]
+    for j in range(n):
+        if j != i:
+            r.append(x[j])
+            r[0] /= x[i] - x[j]
+    return r
+
+
+def lagrange(x):
+    n = len(x)
+    y = [f(val) for val in x]
+    L = []
+    for i in range(n):
+        li = process(i, x) ## считаются многочлены влияния
+        li[0] *= y[i] ## fi * li
+        L.append(li) ## добавляются слагаемые в итоговый многочлен лангранжа
+    return L
+
+
+def newton(x):
+    n = len(x)
+    y = [[f(val) for val in x]] ## подставляем значение x в формулу
+    k = 1
+    N = [[y[0][0]]] ## массив массивов
+    for i in range(n - 1):  ## заполняем таблицу конечных разностей
+        y.append([])
+        
+        for j in range(len(y[i]) - 1): ## заполняем таблицу конечных разностей
+            y[i + 1].append((y[i][j] - y[i][j + 1]) /
                             (x[j] - x[j + k]))
         N.append([y[i+1][0]] + [x[k] for k in range(i + 1)]) ## нам нужны [y+1][0], будет содержать все слагаемые многочлена
         k += 1
