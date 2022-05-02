@@ -1,44 +1,6 @@
-import math
-import numpy as np
-import matplotlib.pyplot as plt
-
-
-def f(x):
-    return x**0.5
-
-
-def process(i, x):
-    n = len(x)
-    r = [1.0]
-    for j in range(n):
-        if j != i:
-            r.append(x[j])
-            r[0] /= x[i] - x[j]
-    return r
-
-
-def lagrange(x):
-    n = len(x)
-    y = [f(val) for val in x]
-    L = []
-    for i in range(n):
-        li = process(i, x)
-        li[0] *= y[i]
-        L.append(li)
-    return L
-
-
-def newton(x):
-    n = len(x)
-    y = [[f(val) for val in x]]
-    k = 1
-    N = [[y[0][0]]]
-    for i in range(n - 1):
-        y.append([])
-        for j in range(len(y[i]) - 1):
-            y[i + 1].append((y[i][j] - y[i][j + 1]) /
+i][j + 1]) /
                             (x[j] - x[j + k]))
-        N.append([y[i+1][0]] + [x[k] for k in range(i + 1)])
+        N.append([y[i+1][0]] + [x[k] for k in range(i + 1)]) ## нам нужны [y+1][0], будет содержать все слагаемые многочлена
         k += 1
     return N
 
@@ -75,7 +37,7 @@ def mm(lst):
 def analyse(x, P):
     func = 0
     for each in P:
-        func += each[0] * mm(x - each[i] for i in range(1, len(each)))
+        func += each[0] * mm(x - each[i] for i in range(1, len(each))) ## each, умножаем на произведение скобок(для всех иксов берем игрик координату)
     return func
 
 
@@ -100,8 +62,10 @@ def show_plot(limit, x, y, step=0.1):
 
 if __name__ == '__main__':
 
-    x_1 = [0, 1.7, 3.4, 5.1]
-    x_check = 3.0
+    ## приблизить многочленами лангранжа и ньютона, что такое экстрополяция
+
+    x_1 = [0, 1.7, 4.0, 5.1]
+    x_check = 0.8
 
     print('Lagrange')
     L = lagrange(x_1)
@@ -123,9 +87,9 @@ if __name__ == '__main__':
     Fx = f(x_check)
     print(f'F({x_check}) = {Fx:6.3f}\n')
     print('Error')
-    print(f'|F(x) - L(x)| = {abs(Fx - Lx):7.4}')
-    print(f'|F(x) - N(x)| = {abs(Fx - Nx):7.4}')
+    print(f'|F(x) - L(x)| = {abs(Fx - Lx)}')
+    print(f'|F(x) - N(x)| = {abs(Fx - Nx)}')
 
     def l(x): return analyse(x, L)
     def n(x): return analyse(x, N)
-    show_plot([l, n], x_1, [f(val) for val in x_1])
+    show_plot([l, n], x_1, [f(val) for val in x_1]) ## подставляем разные иксы из дано, и получаем разные игрики
